@@ -1,0 +1,18 @@
+.flemme-navbar {
+    background: $flemme-white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    border-bottom: 2px solid $flemme-green;
+  
+    .navbar-brand {
+      font-weight: 700;
+      font-size: 1.5rem;
+      
+      img {
+        transition: transform 0.3s ease;
+      }
+      
+      &:hover img {
+        transform: rotate(-5deg);
+      }
+    }
+  }
